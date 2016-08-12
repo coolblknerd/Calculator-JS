@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Orbitron);
+#calculator {
+  border: 2px solid lightgrey;
+  height: 450px;
+  margin-top: 100px;
+  width: 300px;
+  border-radius: 10px;
+  background-color: lightgrey;
+  box-shadow: 10px 5px 10px #888888;
+}
+#calculator #header {
+  font-family: 'Orbitron', sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin-top: 15px;
+}
+#calculator #display {
+  border: 1px solid black;
+  margin-top: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  height: 60px;
+  text-align: right;
+  background-color: #f3e5ab;
+  font-family: 'Orbitron', sans-serif;
+  font-size: 40px;
+}
+#calculator #buttonSect {
+  margin-top: 20px;
+  margin-left: 25px;
+}
+#calculator #buttonSect #button {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 50px;
+  margin-right: 5px;
+  margin-bottom: 10px;
+  background-color: tan;
+  font-family: 'Orbitron', sans-serif;
+  padding: 15px 0px;
+  text-align: center;
+}
+#calculator #buttonSect #zeroButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  height: 50px;
+  width: 105px;
+  margin-right: 5px;
+  background-color: tan;
+  text-align: center;
+  padding: 15px 0px;
+  font-family: 'Orbitron', sans-serif;
+}
+#calculator #buttonSect #equalButton {
+  border: 1px solid black;
+  border-radius: 5px;
+  width: 50px;
+  height: 110px;
+  background-color: tan;
+  font-family: 'Orbitron', sans-serif;
+  text-align: center;
+  padding: 40px 0px;
+  position: absolute;
+  margin-left: 166px;
+}
